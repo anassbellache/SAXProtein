@@ -1,0 +1,283 @@
+sasmodels name	Parameters	Units	Range
+barbell	{ 4, 1, 40, 20, 400 }	 	 
+barbell_xy	{ 4, 1, 40, 20, 400, 60, 60 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Barbell scattering length density	4e-6/Ang^2	[-inf, inf]
+ 	Solvent scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Spherical bell radius	Ang	[0, inf]
+ 	Cylindrical bar radius	Ang	[0, inf]
+ 	Cylinder bar length	Ang	[0, inf]
+ 	In plane angle	degrees	[-inf, inf]
+ 	Out of plane angle	degrees	[-inf, inf]
+ 	 	 	 
+bcc	{ 220, 0.06, 40, 4, 1 }	 	 
+bcc_xy	{ 220, 0.06, 40, 4, 1, 60, 60, 60 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Nearest neighbour distance	Ang	[-inf, inf]
+ 	Paracrystal distortion factor	 	[-inf, inf]
+ 	Particle radius	Ang	[0, inf]
+ 	Particle scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Solvent scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	In plane angle	degrees	[-inf, inf]
+ 	Out of plane angle	degrees	[-inf, inf]
+ 	Out of plane angle	degrees	[-inf, inf]
+ 	 	 	 
+capped_cylinder	{ 4, 1, 20, 20, 400 }	 	 
+capped_cylinder_xy	{ 4, 1, 20, 20, 400, 60, 60 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Cylinder scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Solvent scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Cylinder radius	Ang	[0, inf]
+ 	Cap radius	Ang	[0, inf]
+ 	Cylinder length	Ang	[0, inf]
+ 	In plane angle	degrees	[-inf, inf]
+ 	Out of plane angle	degrees	[-inf, inf]
+ 	 	 	 
+core_shell_cylinder	{ 4, 4, 1, 20, 20, 400 }	 	 
+core_shell_cylinder_xy	{ 4, 4, 1, 20, 20, 400, 60, 60 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Cylinder core scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Cylinder shell scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Solvent scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Cylinder core radius	Ang	[0, inf]
+ 	Cylinder shell thickness	Ang	[0, inf]
+ 	Cylinder length	Ang	[0, inf]
+ 	In plane angle	degrees	[-inf, inf]
+ 	Out of plane angle	degrees	[-inf, inf]
+ 	 	 	 
+cylinder	{ 4, 1, 20, 400 }	 	 
+cylinder_xy	{ 4, 1, 20, 400, 60, 60 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Cylinder scattering length density	4e-6/Ang^2	[-inf, inf]
+ 	Solvent scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Cylinder radius	Ang	[0, inf]
+ 	Cylinder length	Ang	[0, inf]
+ 	In plane angle	degrees	[-inf, inf]
+ 	Out of plane angle	degrees	[-inf, inf]
+ 	 	 	 
+dab	{ 50.0 }	 	 
+dab_xy	{ 50.0 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	correlation length	Ang	[0, inf]
+ 	 	 	 
+ellipsoid	{ 4, 1, 20, 400 }	 	 
+ellipsoid_xy	{ 4, 1, 20, 400, 60, 60 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Ellipsoid scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Solvent scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Polar radius	Ang	[0, inf]
+ 	Equatorial radius	Ang	[0, inf]
+ 	In plane angle	degrees	[-inf, inf]
+ 	Out of plane angle	degrees	[-inf, inf]
+ 	 	 	 
+fcc	{ 220, 0.06, 40, 4, 1 }	 	 
+fcc_xy	{ 220, 0.06, 40, 4, 1, 60, 60, 60 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Nearest neighbour distance	Ang	[-inf, inf]
+ 	Paracrystal distortion factor	 	[-inf, inf]
+ 	Particle radius	Ang	[0, inf]
+ 	Particle scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Solvent scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	In plane angle	degrees	[-inf, inf]
+ 	Out of plane angle	degrees	[-inf, inf]
+ 	Out of plane angle	degrees	[-inf, inf]
+ 	 	 	 
+flexible_cylinder_ex	{ 1000.0, 100.0, 20.0, 1.5, 1.0, 6.3 }	 	 
+flexible_cylinder_ex_xy	{ 1000.0, 100.0, 20.0, 1.5, 1.0, 6.3 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Length of the flexible cylinder	Ang	[0, inf]
+ 	Kuhn length of the flexible cylinder	Ang	[0, inf]
+ 	Radius of the flexible cylinder	Ang	[0, inf]
+ 	Axis_ratio (major_radius/radius	 	[0, inf]
+ 	Cylinder scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Solvent scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	 	 	 
+gaussian_peak	{ 0.05, 0.005 }	 	 
+gaussian_peak_xy	{ 0.05, 0.005 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Peak position	1/Ang	[-inf, inf]
+ 	Peak width (standard deviation)	1/Ang	[0, inf]
+ 	 	 	 
+guinier	{ 60.0 }	 	 
+guinier_xy	{ 60.0 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Radius of Gyration	Ang	[0, inf]
+ 	 	 	 
+hardsphere	{ 50.0, 0.2 }	 	 
+hardsphere_xy	{ 50.0, 0.2 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	effective radius of hard sphere	Ang	[0, inf]
+ 	volume fraction of hard spheres	 	[0, 0.74]
+ 	 	 	 
+HayterMSAsq	{ 20.75, 19.0, 0.0192, 318.16, 0.0, 71.08 }	 	 
+HayterMSAsq_xy	{ 20.75, 19.0, 0.0192, 318.16, 0.0, 71.08 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	effective radius of hard sphere	Ang	[0, inf]
+ 	charge on sphere (in electrons)	e	[0, inf]
+ 	volume fraction of spheres	 	[0, 0.74]
+ 	temperature, in Kelvin, for Debye length calculation	K	[0, inf]
+ 	conc of salt, 1:1 electolyte, for Debye length	M	[-inf, inf]
+ 	dielectric constant of solvent (default water), for Debye length	 	[-inf, inf]
+ 	 	 	 
+hollow_cylinder	{ 30.0, 20.0, 400.0, 6.3, 1 }	 	 
+hollow_cylinder_xy	{ 30.0, 20.0, 400.0, 6.3, 1, 90, 0 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Cylinder radius	Ang	[0, inf]
+ 	Hollow core radius	Ang	[0, inf]
+ 	Cylinder length	Ang	[0, inf]
+ 	Cylinder sld	1/Ang^2	[-inf, inf]
+ 	Solvent sld	1/Ang^2	[-inf, inf]
+ 	Theta angle	degrees	[-360, 360]
+ 	Phi angle	degrees	[-360, 360]
+ 	 	 	 
+lamellar	{ 1, 6, 50 }	 	 
+lamellar_xy	{ 1, 6, 50 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Layer scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Solvent scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Bilayer thickness	Ang	[0, inf]
+ 	 	 	 
+lamellarCaille	{ 30.0, 20, 400.0, 0.1, 6.3, 1.0 }	 	 
+lamellarCaille_xy	{ 30.0, 20, 400.0, 0.1, 6.3, 1.0 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	sheet thickness	Ang	[0, inf]
+ 	Number of layers	 	[0, inf]
+ 	d-spacing of Caille S(Q)	Ang	[0.0, inf]
+ 	Caille parameter	1/Ang^2	[0.0, 0.8]
+ 	layer scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Solvent scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	 	 	 
+lamellarCailleHG	{ 10, 2, 30, 40.0, 0.001, 0.4, 2.0, 6 }	 	 
+lamellarCailleHG_xy	{ 10, 2, 30, 40.0, 0.001, 0.4, 2.0, 6 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Tail thickness	Ang	[0, inf]
+ 	head thickness	Ang	[0, inf]
+ 	Number of layers	 	[0, inf]
+ 	d-spacing of Caille S(Q)	Ang	[0.0, inf]
+ 	Caille parameter	 	[0.0, 0.8]
+ 	Tail scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Head scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Solvent scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	 	 	 
+lamellarFFHG	{ 15, 10, 0.4, 3.0, 6 }	 	 
+lamellarFFHG_xy	{ 15, 10, 0.4, 3.0, 6 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Tail thickness	Ang	[0, inf]
+ 	head thickness	Ang	[0, inf]
+ 	Tail scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Head scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Solvent scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	 	 	 
+lamellarPC	{ 33.0, 20, 250.0, 0.0, 1.0, 6.34 }	 	 
+lamellarPC_xy	{ 33.0, 20, 250.0, 0.0, 1.0, 6.34 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	sheet thickness	Ang	[0, inf]
+ 	Number of layers	 	[0, inf]
+ 	d-spacing of paracrystal stack	Ang	[0.0, inf]
+ 	d-spacing polydispersity	Ang	[0.0, inf]
+ 	layer scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Solvent scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	 	 	 
+linear_pearls	{ 80.0, 350.0, 3.0, 1.0, 6.3 }	 	 
+linear_pearls_xy	{ 80.0, 350.0, 3.0, 1.0, 6.3 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Radius of the pearls	Ang	[0, inf]
+ 	Length of the string segment - surface to surface	Ang	[0, inf]
+ 	Number of the pearls	 	[0, inf]
+ 	SLD of the pearl spheres	1e-6/Ang^2	[-inf, inf]
+ 	SLD of the solvent	1e-6/Ang^2	[-inf, inf]
+ 	 	 	 
+lorentz	{ 50.0 }	 	 
+lorentz_xy	{ 50.0 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Screening length	Ang	[0, inf]
+ 	 	 	 
+mass_fractal	{ 10.0, 1.9, 100.0 }	 	 
+mass_fractal_xy	{ 10.0, 1.9, 100.0 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Particle radius	Ang	[0.0, inf]
+ 	Mass fractal dimension	 	[1.0, 6.0]
+ 	Cut-off length	Ang	[0.0, inf]
+ 	 	 	 
+mass_surface_fractal	{ 1.8, 2.3, 86.7, 4000.0 }	 	 
+mass_surface_fractal_xy	{ 1.8, 2.3, 86.7, 4000.0 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Mass fractal dimension	 	[1e-16, 6.0]
+ 	Surface fractal dimension	 	[1e-16, 6.0]
+ 	Cluster radius of gyration	Ang	[0.0, inf]
+ 	Primary particle radius of gyration	Ang	[0.0, inf]
+ 	 	 	 
+parallelepiped	{ 4, 1, 35, 75, 400 }	 	 
+parallelepiped_xy	{ 4, 1, 35, 75, 400, 60, 60, 60 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Parallelepiped scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Solvent scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Shorter side of the parallelepiped	Ang	[0, inf]
+ 	Second side of the parallelepiped	Ang	[0, inf]
+ 	Larger side of the parallelepiped	Ang	[0, inf]
+ 	In plane angle	degrees	[-inf, inf]
+ 	Out of plane angle	degrees	[-inf, inf]
+ 	Rotation angle around its own c axis against q plane	degrees	[-inf, inf]
+ 	 	 	 
+pearl_necklace	{ 80.0, 350.0, 2.5, 3, 1.0, 1.0, 6.3 }	 	 
+pearl_necklace_xy	{ 80.0, 350.0, 2.5, 3, 1.0, 1.0, 6.3 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Mean radius of the chained spheres	Angstrom	[0, inf]
+ 	Mean separation of chained particles	Angstrom	[0, inf]
+ 	Thickness of the chain linkage	Angstrom	[0, inf]
+ 	Mean number of pearls in each necklace	none	[0, inf]
+ 	Scattering length density of the chained spheres	Angstrom^2	[-inf, inf]
+ 	Scattering length density of the chain linkage	Angstrom^2	[-inf, inf]
+ 	Scattering length density of the solvent	Angstrom^2	[-inf, inf]
+ 	 	 	 
+sphere	{ 1, 6, 50 }	 	 
+sphere_xy	{ 1, 6, 50 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Layer scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Solvent scattering length density	1e-6/Ang^2	[-inf, inf]
+ 	Sphere radius	Ang	[0, inf]
+ 	 	 	 
+star_polymer	{ 100.0, 3 }	 	 
+star_polymer_xy	{ 100.0, 3 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	Ensemble radius of gyration squared of an arm	Ang	[0.0, inf]
+ 	Number of arms in the model	 	[1.0, 6.0]
+ 	 	 	 
+stickyhardsphere	{ 50.0, 0.2, 0.05, 0.2 }	 	 
+stickyhardsphere_xy	{ 50.0, 0.2, 0.05, 0.2 }	 	 
+ 	 	 	 
+ 	Parameters:	 	 
+ 	effective radius of hard sphere	Ang	[0, inf]
+ 	volume fraction of hard spheres	 	[0, 0.74]
+ 	perturbation parameter, epsilon	 	[0.01, 0.1]
+ 	stickiness, tau	 	[-inf, inf]
+ 	 	 	 
+triaxial_ellipsoid	{ 4, 1, 20, 400, 10 }	 	 
+triaxial_ellipsoid_xy	{ 4, 1, 20, 400, 10, 60, 60, 60 }
